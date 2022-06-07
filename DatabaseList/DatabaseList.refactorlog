@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="c409d9d5-a369-478c-8728-e875355f9d2d" ChangeDateTime="06/07/2022 00:36:58">
+    <Property Name="ElementName" Value="[dbo].[AnimeBaseData].[Tytuł]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AnimeBaseData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Image" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d1b871c3-6ff9-4823-9df4-42c54e3016cb" ChangeDateTime="06/07/2022 00:37:56">
+    <Property Name="ElementName" Value="[dbo].[AnimeBaseData].[Producent]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AnimeBaseData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Studio" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="081ac7bc-81ab-4e23-bc4a-5875e4573ec0" ChangeDateTime="06/07/2022 00:39:50">
+    <Property Name="ElementName" Value="[dbo].[AnimeBaseData].[GatunekID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AnimeBaseData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GenresID" />
+  </Operation>
+</Operations>

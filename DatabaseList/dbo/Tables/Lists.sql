@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Lists]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [AnimeID] NCHAR(10) NOT NULL
+)
