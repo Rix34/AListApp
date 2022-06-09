@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using AListAppUI.ViewModels;
+using AListAppUI.Helpers;
+using System.Windows.Controls;
 
 namespace AListAppUI
 {
@@ -15,6 +17,12 @@ namespace AListAppUI
         public Bootstrapper()
         {
             Initialize();
+
+            ConventionManager.AddElementConvention<PasswordBox>(
+            PasswordBoxHelper.BoundPasswordProperty,
+            "Password",
+            "PasswordChanged");
+
         }
 
         protected override void Configure()

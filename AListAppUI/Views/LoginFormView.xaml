@@ -30,9 +30,9 @@
         <TextBlock Grid.Row="0" Grid.Column ="1" FontSize="64" FontWeight="Bold" HorizontalAlignment="Center" Text="Logowanie:" Grid.ColumnSpan="2"/>
         <TextBlock Grid.Row="1" Grid.Column ="1"  Text="Nickname: " Margin = "0,0,0,20" />
         <TextBlock Grid.Row="2" Grid.Column ="1"  Text="Password: " Margin = "0,0,0,20"/>
-        <TextBox x:Name="NickBox" Grid.Row="1" Grid.Column ="2" MinWidth="400" Margin = "0,0,0,20"/>
-        <PasswordBox x:Name="PassBox" Grid.Row="2" Grid.Column ="2" MinWidth="400" Margin = "0,0,0,20"/>
-        <Button x:Name="LoginButton" Grid.Row="3" Grid.Column ="1" Grid.ColumnSpan="2" Padding=" 20,5" Content="LogIN" HorizontalAlignment="Center" Background="#FF887676" MinWidth="400"/>
+        <TextBox x:Name="UserName" Grid.Row="1" Grid.Column ="2" MinWidth="400" Margin = "0,0,0,20"/>
+        <PasswordBox x:Name="Password" Grid.Row="2" Grid.Column ="2" MinWidth="400" Margin = "0,0,0,20"/>
+        <Button x:Name="LogIn" Grid.Row="3" Grid.Column ="1" Grid.ColumnSpan="2" Padding=" 20,5" Content="LogIN" HorizontalAlignment="Center" Background="#FF887676" MinWidth="400"/>
 
 
     </Grid>
